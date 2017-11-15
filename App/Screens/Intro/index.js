@@ -8,6 +8,7 @@ class Intro extends Component<{}> {
     return(
       <View style={styles.container}>
         <StatusBar
+          backgroundColor="rgb(89, 82, 126)"
           barStyle="light-content"
         />
         <Image
