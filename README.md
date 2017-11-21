@@ -1,6 +1,7 @@
 # React Native Starter - (WIP)
 
 An opinionated React Native Starter project.
+Heavily inspired by [ignite](https://github.com/infinitered/ignite)
 
 Libraries used:
 * [Redux](https://github.com/reactjs/redux)
