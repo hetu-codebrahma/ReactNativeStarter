@@ -16,10 +16,8 @@ if(__DEV__){
     .connect() // let's connect!
 
   console.tron = Reactotron
+  console.ignoredYellowBox = [ 'Setting a timer' ];
 
-  console.ignoredYellowBox = [
-     'Setting a timer'
- ];
 }else{
   console.tron = {
     log: () => false,

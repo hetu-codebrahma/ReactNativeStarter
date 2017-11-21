@@ -1,14 +1,19 @@
 import { StyleSheet } from 'react-native'
+import {
+  Colors,
+  Fonts,
+  AppStyles,
+} from '../../Services/Theme'
 
 export default StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: 'rgb(89, 82, 126)',
+    ...AppStyles.container,
+    backgroundColor: Colors.primary,
     alignItems: 'center',
     justifyContent: 'center',
   },
   heading: {
-    fontSize: 25,
+    ...Fonts.style.h3,
     color: 'white',
   },
   headerImage: {
